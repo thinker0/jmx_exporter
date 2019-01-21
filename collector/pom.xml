@@ -4,7 +4,7 @@
   <parent>
     <groupId>io.prometheus.jmx</groupId>
     <artifactId>parent</artifactId>
-    <version>0.3.2-SNAPSHOT</version>
+    <version>0.11.1-SNAPSHOT</version>
   </parent>
 
   <artifactId>collector</artifactId>
@@ -17,7 +17,7 @@
     <dependency>
       <groupId>io.prometheus</groupId>
       <artifactId>simpleclient</artifactId>
-      <version>${prometheus.version}</version>
+      <version>0.6.0</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
